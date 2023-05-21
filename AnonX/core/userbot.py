@@ -48,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("DevilsHeavenMF")
-                await self.one.join_chat("FallenAssociation")
+                await self.one.join_chat("best_friends_chatting_grup")
+                await self.one.join_chat("mistyamraj_ki_kahani")
             except:
                 pass
             assistants.append(1)
@@ -102,8 +102,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("DevilsHeavenMF")
-                await self.three.join_chat("FallenAssociation")
+                await self.three.join_chat("best_friends_chatting_grup")
+                await self.three.join_chat("mistyamraj_ki_kahani")
             except:
                 pass
             assistants.append(3)
@@ -129,8 +129,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("DevilsHeavenMF")
-                await self.four.join_chat("FallenAssociation")
+                await self.four.join_chat("best_friends_chatting_grup")
+                await self.four.join_chat("mistyamraj_ki_kahani")
             except:
                 pass
             assistants.append(4)
